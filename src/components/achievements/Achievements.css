@@ -1,0 +1,37 @@
+
+.achievements-section {
+    position: relative !important;
+    padding-top: 100px;
+    padding-bottom: 30px !important;
+    background-color: var(--clr-bg) !important;
+  
+  }
+.purple {
+    color: var(--clr-primary) !important;
+  }
+  .Fluorescent-Blue{
+    color: var(--clr-primary) !important;
+  }
+
+  @media (max-width: 767px){
+    .large
+    {
+      display: none
+    }
+    .sm-text
+    {
+      font-size: small;
+    }
+  }
+@media (max-width: 1020px)
+{
+  .sm-text{
+    font-size: medium;
+  }
+}
+  @media (min-width:767px)
+  {
+    .small{
+      display: none;
+    }
+  }
