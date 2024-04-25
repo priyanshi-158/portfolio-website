@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import laptopImg from "../../Assets/tcs.png";
-import leetcode from "../../Assets/leetcode.png";
+import leetcode from "../../Assets/leetcode-knight.png";
 
 import "./Achievements.css";
 
@@ -64,10 +64,10 @@ function Achievements() {
             }}
           >
             <h1 style={{ fontSize: "2.1em" }}>
-              Consistent Problem Solver{" "}
+              Knight Badge{" "}
               <strong> @Leetcode </strong>
             </h1>
-            <p className="Fluorescent-Blue" style={{ fontSize: "1.1em"}}>Solved 600+ problems and maintained a daily challenge completion streak of 200+ days</p>
+            <p className="Fluorescent-Blue" style={{ fontSize: "1.1em"}}>Achieved Knight Badge and solved 600+ problems</p>
             <blockquote className="blockquote mb-0">
               <p style={{ textAlign: "justify" }} className="sm-text">
                 Since September 2023, I've embarked on an exhilarating journey of continuous 
@@ -79,7 +79,7 @@ function Achievements() {
                 200 days</span> on LeetCode has been a testament to my commitment and discipline 
                 in consistently sharpening my coding abilities. Alongside this impressive feat, 
                 I've also earned recognition for my dedication and proficiency as a problem solver,
-                 receiving <span className="purple">more than 10 badges</span> for consistent 
+                 receiving <span className="purple">more than 10 badges including the Knight badge</span> for consistent 
                  practice. This journey has not only fortified my technical expertise but has also instilled in me a profound sense of accomplishment and readiness to take on even greater coding challenges in the future
               </p>
             </blockquote>
@@ -96,10 +96,10 @@ function Achievements() {
             }}
           >
             <h1 style={{ fontSize: "2.1em" }}>
-              Consistent Problem Solver{" "}
+              Knight Badge{" "}
               <strong> @Leetcode </strong>
             </h1>
-            <p className="Fluorescent-Blue" style={{ fontSize: "1.1em"}}>Solved 600+ problems and maintained a daily challenge completion streak of 200+ days</p>
+            <p className="Fluorescent-Blue" style={{ fontSize: "1.1em"}}>Achieved Knight Badge and solved 600+ problems</p>
             <blockquote className="blockquote mb-0">
               <p style={{ textAlign: "justify" }} className="sm-text">
                 Since September 2023, I've embarked on an exhilarating journey of continuous 
@@ -111,7 +111,7 @@ function Achievements() {
                 200 days</span> on LeetCode has been a testament to my commitment and discipline 
                 in consistently sharpening my coding abilities. Alongside this impressive feat, 
                 I've also earned recognition for my dedication and proficiency as a problem solver,
-                 receiving <span className="purple">more than 10 badges</span> for consistent 
+                 receiving <span className="purple">more than 10 badges including the Knight badge</span> for consistent 
                  practice. This journey has not only fortified my technical expertise but has also instilled in me a profound sense of accomplishment and readiness to take on even greater coding challenges in the future
               </p>
             </blockquote>

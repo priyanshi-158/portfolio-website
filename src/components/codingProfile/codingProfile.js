@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import gfg from "../../Assets/gfg.png";
-import Leetcode from "../../Assets/leetcode.png";
+import Leetcode from "../../Assets/leetcode-knight.png";
 
 import "./codingProfiles.css";
 import Cards from "./Cards";

@@ -4,6 +4,7 @@ import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import ProjectCard from "./ProjectCards";
 
 import cryptosite from "../../Assets/cryptosite.png";
+import hms from "../../Assets/hms.png"
 import Portfolio from "../../Assets/portfolio.png";
 import Pizzerita from "../../Assets/pizzerita.png";
 
@@ -29,14 +30,23 @@ user-friendly. The Redux Toolkit allows the smooth functioning of the cart page 
               demoLink="https://pizza-ordersite.vercel.app/"
             />
           </Col>
-
+          <Col md={6} lg={4} className="project-card">
+            <ProjectCard
+              imgPath={hms}
+              title="Hostel Management System"
+              description="The Hostel Management System is a comprehensive web application designed to streamline the management of hostel facilities, catering to the needs of both administrators and students. Utilizing React.js allows for building a dynamic and responsive user interface.
+              MongoDB is employed to store and manage hostel-related data such as student information, room allocations, and administrative details. Implementing authentication mechanisms using JWT (JSON Web Tokens) ensures secure access to the application, allowing only authenticated users to perform specific actions. "
+              ghLink="https://github.com/priyanshi-158/HMS"
+              demoLink="https://hostel-management-front.vercel.app/"
+            />
+          </Col>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
               imgPath={Portfolio}
               title="Portfolio Website"
               description="A sleek and dynamic portfolio website crafted with React.js and React Bootstrap, seamlessly blending modern aesthetics with robust functionality. Whether showcasing design projects, coding endeavors, or creative ventures, this portfolio website stands out with its minimalist yet impactful design, inviting visitors to explore and engage."
               ghLink="https://github.com/priyanshi-158/Portfolio-Website"
-              demoLink="#"
+              demoLink="https://portfolio-website-alpha-beryl.vercel.app/"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
